@@ -28,8 +28,8 @@ let package = Package(
         )
     ],
     dependencies: [
-        //.package(url: "https://github.com/IBM-Swift/Swift-Kuery.git", from: "3.1.0"),
-        .package(url: "https://github.com/IBM-Swift/Swift-Kuery.git", .branch("master")),
+        .package(url: "https://github.com/Kitura-Next/Swift-Kuery.git", from: "3.1.0"),
+        //.package(url: "https://github.com/Kitura-Next/Swift-Kuery.git", .branch("master")),
     ],
     targets: [
         .target(
